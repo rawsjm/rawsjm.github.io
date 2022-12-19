@@ -1,0 +1,53 @@
+body{
+    background-color: #61605f;
+}
+
+.pageTitle{ 
+    font-family:'Montserrat';
+    color:white;
+    text-transform: uppercase;
+    font-size:15vh;
+    margin-bottom:0;
+}
+
+.bioText{
+    font-family:'Montserrat';
+    color:black;
+    text-transform: uppercase;
+    font-size:2vh;
+}
+
+.bio{
+    color:white;
+    padding: 1vh 2vh 1vh 10vh;
+    background-color: #A5B592;
+    width:150vh;
+    position: relative;
+    margin-left: -1vh;
+}
+
+.afterBio{
+    color: white;
+    margin-left: 50vh;
+}
+
+.contact{
+    font-family:'Montserrat';
+    color: white;
+    text-transform: uppercase;
+    font-size:2vh;
+    margin-top: 5vh;
+}
+
+.projectHead{
+    font-family: 'Montserrat';
+    font-size:15vh;
+    font-weight: 400;
+    color:white;
+
+}
+
+.generalText{
+    color:white;
+    font-family: "Montserrat";
+}
