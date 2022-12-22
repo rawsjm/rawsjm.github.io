@@ -1,5 +1,6 @@
-body{
+.background{
     background-color: #61605f;
+    background: linear-gradient(to bottom, grey, 50%)
 }
 
 .pageTitle{ 
@@ -20,10 +21,11 @@ body{
 .bio{
     color:white;
     padding: 1vh 2vh 1vh 10vh;
-    background-color: #A5B592;
+    background: linear-gradient(to right, #A5B592, 95%, #61605f );
     width:150vh;
     position: relative;
     margin-left: -1vh;
+    
 }
 
 .afterBio{
@@ -36,7 +38,8 @@ body{
     color: white;
     text-transform: uppercase;
     font-size:2vh;
-    margin-top: 5vh;
+    margin-top: 2vh;
+    text-align: center;
 }
 
 .projectHead{
@@ -50,4 +53,10 @@ body{
 .generalText{
     color:white;
     font-family: "Montserrat";
+}
+
+.bulletList{
+    color: white;
+    font-family:"Montserrat";
+    list-style: circle;
 }
