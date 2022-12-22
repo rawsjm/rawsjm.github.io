@@ -15,13 +15,14 @@
     font-family:'Montserrat';
     color:black;
     text-transform: uppercase;
+    text-align: center;
     font-size:2vh;
 }
 
 .bio{
     color:white;
     padding: 1vh 2vh 1vh 10vh;
-    background: linear-gradient(to right, #A5B592, 95%, #61605f );
+    background: linear-gradient(to left, #A5B592, 95%, #61605f );   
     width:150vh;
     position: relative;
     margin-left: -1vh;
@@ -42,6 +43,24 @@
     text-align: center;
 }
 
+.btn{
+    font-family:'Montserrat';
+    color: #A5B592;
+    opacity: .6;
+    transition: 0.3s;
+}
+
+/*this gets rid of the purple font on visited links*/
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
+
+.btn:hover{
+    color:#A5B592;
+    opacity: 1;
+}
+
 .projectHead{
     font-family: 'Montserrat';
     font-size:15vh;
@@ -60,3 +79,35 @@
     font-family:"Montserrat";
     list-style: circle;
 }
+
+/* Style inputs with type="text", select elements and textareas */
+.input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid transparent; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+.input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+.input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+.container {
+    background-color:transparent;
+    padding: 20px;
+  }
