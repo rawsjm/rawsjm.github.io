@@ -1,6 +1,5 @@
 .background{
     background-color: #61605f;
-    background: linear-gradient(to bottom, grey, 50%)
 }
 
 .pageTitle{ 
@@ -9,11 +8,13 @@
     text-transform: uppercase;
     font-size:15vh;
     margin-bottom:0;
+    text-align: center;
 }
 
 .bioText{
     font-family:'Montserrat';
     color:black;
+    font-weight:500;
     text-transform: uppercase;
     text-align: center;
     font-size:2vh;
@@ -22,10 +23,9 @@
 .bio{
     color:white;
     padding: 1vh 2vh 1vh 10vh;
-    background: linear-gradient(to left, #A5B592, 95%, #61605f );   
+    background: linear-gradient(to right, #61605f 0%,#A5B592, #61605f 100%);   
     width:150vh;
-    position: relative;
-    margin-left: -1vh;
+    text-align: center;
     
 }
 
@@ -80,34 +80,13 @@ a:visited {
     list-style: circle;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-.input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid transparent; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-.input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
+/* form customization */
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #A5B592;
     border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-.input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-.container {
-    background-color:transparent;
-    padding: 20px;
-  }
+}
