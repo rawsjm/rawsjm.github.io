@@ -2,7 +2,7 @@
     background-color: #61605f;
 }
 
-.pageTitle{ 
+#pageTitle{ 
     font-family:'Montserrat';
     color:white;
     text-transform: uppercase;
@@ -23,15 +23,11 @@
 .bio{
     color:white;
     padding: 1vh 2vh 1vh 10vh;
-    background: linear-gradient(to right, #61605f 0%,#A5B592, #61605f 100%);   
-    width:150vh;
+    background: linear-gradient(to right, #61605f -50%,#A5B592, #61605f 150%);   
+    width:100%;
+    margin-left: -10vh;
     text-align: center;
     
-}
-
-.afterBio{
-    color: white;
-    margin-left: 50vh;
 }
 
 .contact{
@@ -63,21 +59,10 @@ a:visited {
 
 .projectHead{
     font-family: 'Montserrat';
-    font-size:15vh;
+    font-size:5vh;
     font-weight: 400;
     color:white;
 
-}
-
-.generalText{
-    color:white;
-    font-family: "Montserrat";
-}
-
-.bulletList{
-    color: white;
-    font-family:"Montserrat";
-    list-style: circle;
 }
 
 /* form customization */
@@ -89,4 +74,43 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+/* image formatting */
+.imgformat{
+    width:500px;   
+    object-position: center;
+}
+
+/* scroll behavior */
+html {
+    scroll-behavior: smooth;
+  }
+
+/* id for smooth scroll to projects */
+#airplane{
+    font-family: 'Montserrat';
+    font-size:7vh;
+    font-weight: 400;
+    color:white;
+    margin-top: 40vh;
+    text-align: right;
+}
+
+#soapbx{
+    font-family: 'Montserrat';
+    font-size:7vh;
+    font-weight: 400;
+    color:white;
+    margin-top: 90vh;
+    text-align: right;
+}
+
+#solarpwrbp{
+    font-family: 'Montserrat';
+    font-size:7vh;
+    font-weight: 400;
+    color:white;
+    margin-top: 90vh;
+    text-align: right;
 }
