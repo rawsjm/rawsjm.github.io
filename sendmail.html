@@ -1,32 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rawsen Mitchell</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  </head>
+<html>
+<head>
+<title>Contact Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
-  <body class="background">
-	<!-- <script src="index.js"></script> -->
-    <div class="container" style="font-family:'Montserrat';">
-        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
-          <fieldset id="fs-frm-inputs">
-            <label class="contact" for="full-name">Full Name</label>
-            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-            <br><label class="contact" for="full-name">Company</label>
-            <input type="text" name="company" id="company-name" placeholder="Company name" required="">
-            <br><label class="contact" for="email-address">Email Address</label>
-            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-            <br><label class="contact" for="message">Message</label>
-            <br><textarea rows="5" name="message" id="message" placeholder="Type your mesage here." required=""></textarea>
-            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-          </fieldset>
-          <input type="submit" value="Submit">
-        </form>
+</head>
+<body class="parallax">
+    
+
+<!-- Start Contact Section -->
+ <div style="font-family:'Montserrat'; color:white;" id="contact">
+  <div class="w3-content" style="max-width:600px">
+    <h4 class="contact"><b>Contact Me</b></h4>
+
+    <script type="text/javascript">var submitted=false;</script>
+    
+    <!--Update the URL for thank you page on form submit -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+    onload="if(submitted) {window.location='http://zerobudget.club/';}"></iframe> 
+    
+    <!-- Update the Google forms URL in action-->
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc5HSKBosGalzZVbfv_Wvb2w6h3lYKvZqzdl9NfsdMespXQrw/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+
+      
+      <div class="w3-section">
+        <label>Full Name</label>
+        <input class="w3-input w3-border" type="text" placeholder="Macho Suave" id="name" required name="entry.1468085339">
       </div>
-  </body>
+      <div class="w3-section">
+        <label>Email Address</label>
+        <input class="w3-input w3-border" type="text" placeholder="you@something.com" id="email" required name="entry.219455100">
+      </div>
+      <div class="w3-section">
+        <label>Company</label>
+        <input class="w3-input w3-border" type="text" placeholder="The Biz" id="company" required name="entry.34550572">
+        <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" placeholder="Say something nice! (or not)" id="message" required name="entry.1775909246">
+      </div>
+
+      <div class="w3-section">
+        <button class="w3-button w3-block w3-black w3-margin-bottom" type="submit">SEND</button>
+      </div>
+    </form>
+</div>
+</div>
+
+<!-- End Contact Section -->
+            
+</body>
 </html>
