@@ -2,7 +2,7 @@
     background-color: #61605f;
 }
 
-#pageTitle{ 
+#pageTitle { 
     font-family:'Montserrat';
     color:white;
     text-transform: uppercase;
@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.bioText{
+.bioText {
     font-family:'Montserrat';
     color:black;
     font-weight:500;
@@ -20,7 +20,7 @@
     font-size:2vh;
 }
 
-.bio{
+.bio {
     color:white;
     padding: 1vh 2vh 1vh 10vh;
     background: linear-gradient(to right, #61605f -50%,#A5B592, #61605f 150%);   
@@ -30,7 +30,8 @@
     
 }
 
-.contact{
+
+.contact {
     font-family:'Montserrat';
     color: white;
     text-transform: uppercase;
@@ -39,7 +40,7 @@
     text-align: center;
 }
 
-#extbio{
+#extbio {
     font-family:'Montserrat';
     color: white;
     text-transform: uppercase;
@@ -48,12 +49,24 @@
     text-align: center;
 }
 
-.extbio{
+.extbio {
     font-family:'Montserrat';
     color: white;
     font-size:3vh;
     margin: 5vh;
     text-align: center;
+}
+
+.extbio2 {
+    font-family:'Montserrat';
+    color: white;
+    font-size:3vh;
+    list-style-position: inside;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5vh;
+    
 }
 
 .btn{
