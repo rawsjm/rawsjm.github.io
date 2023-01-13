@@ -176,3 +176,38 @@ html {
     background-color: #A5B592;
     background-repeat: repeat-x;
 }
+
+/* everything below this line is for sendmail.html */
+
+.contactMe{
+    font-family:'Montserrat';
+    color: white;
+    text-transform: uppercase;
+    font-size:4vw;
+    padding: 0vh 2vh 3vh 0vh;  
+    margin:auto;
+    text-align: center;
+}
+
+.inputMe{
+    font-family:'Montserrat';
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #61605f -50%,#A5B592, #61605f 150%);
+    font-size:1vw;
+    padding-bottom: 3vw;  
+    margin:auto;
+    text-align: center;
+}
+
+.textInput{
+    font-family:'Montserrat';
+    color: black;
+    text-transform: uppercase;
+    font-size:1vw;
+    padding: 0vh 2vh 1vh 0vh;  
+    margin:auto;
+    text-align: center;
+    width:30vw;
+    height: 2vw;
+}

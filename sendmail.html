@@ -15,37 +15,34 @@
     
 
 <!-- Start Contact Section -->
- <div style="font-family:'Montserrat'; color:white;" id="contact">
-  <div class="w3-content" style="max-width:600px">
-    <h4 class="contact"><b>Contact Me</b></h4>
+ <div id="contact">
+  <div class="inputMe" style="max-width:600px">
+    <h4 class="contactMe"><b>Contact Me</b></h4>
 
-    <script type="text/javascript">var submitted=false;</script>
-    
-    <!--Update the URL for thank you page on form submit -->
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-    onload="if(submitted) {window.location='http://zerobudget.club/';}"></iframe> 
+    <script type="text/javascript">var submitted=false;</script> 
     
     <!-- Update the Google forms URL in action-->
     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc5HSKBosGalzZVbfv_Wvb2w6h3lYKvZqzdl9NfsdMespXQrw/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
 
       
-      <div class="w3-section">
+      <div class="inputMe">
         <label>Full Name</label>
-        <input class="w3-input w3-border" type="text" placeholder="Macho Suave" id="name" required name="entry.1468085339">
+        <br><input class="textInput" type="text" placeholder="Macho Suave" id="name" required name="entry.1468085339">
       </div>
-      <div class="w3-section">
+      <div class="inputMe">
         <label>Email Address</label>
-        <input class="w3-input w3-border" type="text" placeholder="you@something.com" id="email" required name="entry.219455100">
+        <br><input class="textInput" type="text" placeholder="you@something.com" id="email" required name="entry.219455100">
       </div>
-      <div class="w3-section">
+      <div class="inputMe">
         <label>Company</label>
-        <input class="w3-input w3-border" type="text" placeholder="The Biz" id="company" required name="entry.34550572">
-        <div class="w3-section">
+        <br><input class="textInput" type="text" placeholder="The Biz" id="company" required name="entry.34550572">
+      </div>  
+        <div class="inputMe">
         <label>Message</label>
-        <input class="w3-input w3-border" type="text" placeholder="Say something nice! (or not)" id="message" required name="entry.1775909246">
+        <br><input class="textInput" type="text" placeholder="Say something nice! (or not)" id="message" required name="entry.1775909246">
       </div>
 
-      <div class="w3-section">
+      <div class="inputMe">
         <button class="w3-button w3-block w3-black w3-margin-bottom" type="submit">SEND</button>
       </div>
     </form>
