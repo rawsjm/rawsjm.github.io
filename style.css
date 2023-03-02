@@ -170,6 +170,16 @@ html {
     margin-right: 5vw;
 }
 
+#noteBox{
+    font-family: 'Montserrat';
+    font-size: 4vw;
+    font-weight: 400;
+    color:white;
+    margin-top: 25vw;
+    margin-left: 50vw;
+    margin-right: 5vw;
+}
+
 .description{
     font-family: 'Montserrat';
     font-size:2vw;
